@@ -1,3 +1,4 @@
 # girama-main
  
-Parte principal do sistema girama
+Parte principal do sistema girama.
+Em desenvolvimento
