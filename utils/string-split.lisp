@@ -1,5 +1,0 @@
-(defun string-split (string &key (separator #\Space))
-  (loop for i = 0 then (1+ j)
-        as j = (position separator string :start i)
-        collect (subseq string i j)
-        while j))

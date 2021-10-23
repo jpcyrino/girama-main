@@ -1,0 +1,51 @@
+                               _|                     
+  _ \   __| |   | __ \        |    __| _ \  _` |  __| 
+ (   | (    |   | |   |_____| __| |    __/ (   |\__ \ 
+\___/ \___|\__,_|_|  _|      _|  _|  \___|\__, |____/ 
+                                              _|     
+
+
+OCUN-FREQS, programa para calcular frequências de morfemas a partir de um arquivo de dados 
+retirado a partir do modo texto da plataforma Òcun (https://ocun.latip.com.br). 
+
+Última versão: 23/10/2021 ~ 08:40 Horário de Brasília
+
+
+MODO DE USO:
+
+Certifique-se de que os arquivos de dados encontram-se na mesma pasta que o programa
+OCUN-FREQS.EXE
+
+Ao executar o programa, um prompt abrirá solicitando o nome do arquivo de dados. 
+Certifique-se de fornecer o nome com a extensão correta (normalmente *.txt). Por exemplo, para
+um arquivo denominado arawete.txt, deve-se fazer:
+
+Correto:
+> Digite o nome do arquivo ou 'sair': arawete.txt
+
+Incorreto:
+> Digite o nome do arquivo ou 'sair': arawete
+
+
+
+Caso o programa consiga calcular as frequências dos morfemas, uma mensagem "Ok!" aparecerá.
+
+> Digite o nome do arquivo ou 'sair': arawete.txt
+> Ok!
+> Digite o nome do arquivo ou 'sair': 
+
+O programa gerará dois arquivos .csv, um para os significantes e outro para os significados.
+No caso de um arquivo de entrada arawete.txt, os arquivos gerados são:
+
+- arawete.txt-out-significantes.csv
+- arawete.txt-out-significados.csv
+
+Para sair do programa, basta digitar sair ao invés do nome do arquivo
+
+Caso o arquivo não seja encontrado ou o programa não consiga processá-lo, uma mensagem de erro
+será exibida.
+
+
+
+
+
